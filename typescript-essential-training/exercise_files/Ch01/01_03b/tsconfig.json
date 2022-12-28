@@ -2,7 +2,9 @@
     "compilerOptions": {
         "outDir": "build",
         "target": "esnext",
-        "noEmit": true
+        "noEmit": true,
+        "allowJs": true,
+        "checkJs": true
     },
     "include": ["src/**/*"]
 }
